@@ -2050,6 +2050,7 @@
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
+		justify-content: space-around;
 		flex-wrap: wrap;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
@@ -2242,7 +2243,7 @@
 		@media screen and (max-width: 980px) {
 
 			.features {
-				display: block;
+				/*display: block;*/
 			}
 
 				.features section {
@@ -2547,15 +2548,15 @@
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3.5em;
+			height: 3.5em;
 			display: block;
-			background: #ffffff;
+			/*background: #ffffff;*/
 			border-radius: 100%;
 			color: #001b48;
 			text-align: center;
 			line-height: 2.5em;
-			margin: 0 0 1.3em 0;
+			margin: 1.3em 1em 1.3em 1em;
 		}
 
 			.icon.major:before {
@@ -2590,6 +2591,21 @@
 					color: #dde8f0;
 				}
 /* Middle */
+
+/* Icon Image */
+
+	.icon-img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.scaled {
+		transform: scale(1.3);
+	}
+
+	.css {
+		padding: 0 0.45em;
+	}
 
 }
 /* Image */
@@ -3227,6 +3243,10 @@
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
+		}
+
+		.wrapper > .inner > h2 {
+			text-align: center;
 		}
 
 			@media screen and (max-width: 1680px) {
