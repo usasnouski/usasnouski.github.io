@@ -1716,6 +1716,9 @@
 	h1 {
 		font-size: 2.75em;
 	}
+		h1.credentials {
+			color: #EDB5BF;
+		}
 
 		h1.major {
 			margin: 0 0 1.3em 0;
@@ -2702,6 +2705,10 @@
 				}
 
 		ul.icons {
+			display: flex;
+			justify-content: center;
+			font-size: 3em;
+			margin: 0 0 0 0;
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -2846,7 +2853,7 @@
 			padding: 0;
 			display: flex;
   		flex-direction: row;
-  		justify-content: space-between;
+  		justify-content: space-around;
   		width: 100%;
 		}
 
@@ -3262,7 +3269,7 @@
 		}
 
 		.wrapper > .inner > h2 {
-			color: #4a4645;
+			color: #FFFFFF;
 			text-align: center;
 		}
 
@@ -3303,31 +3310,31 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #e6c7ac;
+			background-color: #9BCFD4;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #e6c7ac;
+			background-color: #9BCFD4;
 		}
 
 		.wrapper.style2 {
-			background-color: #624F66;
+			background-color: #EBEBEB;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #624F66;
+			background-color: #EBEBEB;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4dfcd;
+			background-color: #6e99bd;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #f4dfcd;
+			background-color: #6e99bd;
 		}
 
     .wrapper.style4 {
-      background-color: #e6c7ac;
+      background-color: #9BCFD4;
     }
 
 		.wrapper.fullscreen {
@@ -3588,7 +3595,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #372b38;
+		background: #3d403f;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3825,14 +3832,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #624F66;
+				background: #EBB0BA;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #e6c7ac, #f4dfcd);
-				background-image: -webkit-linear-gradient(to right, #e6c7ac, #f4dfcd);
-				background-image: -ms-linear-gradient(to right, #e6c7ac, #f4dfcd);
-				background-image: linear-gradient(to right, #e6c7ac, #f4dfcd);
+				background-image: -moz-linear-gradient(to right, #9BCFD4, #66bbc3);
+				background-image: -webkit-linear-gradient(to right, #9BCFD4, #66bbc3);
+				background-image: -ms-linear-gradient(to right, #9BCFD4, #66bbc3);
+				background-image: linear-gradient(to right, #9BCFD4, #66bbc3);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3921,7 +3928,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #372b38;
+							background-color: #3d403f;
 						}
 
 		}
@@ -3947,6 +3954,7 @@
 
 		#intro p {
 			font-size: 1.25em;
+			color: #FFFFFF;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3972,6 +3980,44 @@
 			}
 
 		}
+
+	/* Zero */
+
+	 #zero p {
+		 color: white;
+	 }
+
+	 #one h2 {
+		 color: #5675a0;
+	 }
+
+	 #one p {
+		 color: #817f7f;
+	 }
+
+	 #three h2 {
+		 color: #3d403f;
+	 }
+
+	 #three h3 {
+		 color: #55749F;
+	 }
+
+	 #three span {
+		 color: #FFFFFF;
+	 }
+
+	 #three a:hover {
+		 color: #EDB5BF
+	 }
+
+	 #three .fa-linkedin:hover {
+		color: #0077B5;
+	 }
+
+	#three .fa-github:hover {
+	 color: #201F1F;
+ 	}
 
 	.headshot {
 		border-radius: 50%;
