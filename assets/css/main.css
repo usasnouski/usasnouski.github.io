@@ -3265,7 +3265,7 @@
 		}
 
 		.wrapper > .zero-content {
-			padding: 5em 9em 3em 5em;
+			padding: 5em 16em 3em 5em;
 		}
 
 		.wrapper > .inner > h2 {
@@ -3985,6 +3985,10 @@
 
 	 #zero p {
 		 color: white;
+	 }
+
+	 #zero h2 {
+		 text-align: left;
 	 }
 
 	 #one h2 {
