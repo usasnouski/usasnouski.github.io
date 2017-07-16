@@ -1622,7 +1622,10 @@
 	}
 
 	body {
-		background: #001b48;
+		/*background: #001b48;*/
+		  background-image: url(images/dumbo.jpg);
+			background-attachment: fixed;
+			background-size: 100% 100%;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1639,7 +1642,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.75);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -1675,7 +1678,7 @@
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/*border-bottom: dotted 1px rgba(255, 255, 255, 0.35);*/
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2443,7 +2446,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 0.75);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2548,8 +2551,8 @@
 		}
 
 		.icon.major {
-			width: 3.5em;
-			height: 3.5em;
+			width: 5em;
+			height: 5em;
 			display: block;
 			/*background: #ffffff;*/
 			border-radius: 100%;
@@ -2564,7 +2567,7 @@
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #004581;
+					background: #001b48;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2841,6 +2844,10 @@
 		ul.contact {
 			list-style: none;
 			padding: 0;
+			display: flex;
+  		flex-direction: row;
+  		justify-content: space-between;
+  		width: 100%;
 		}
 
 			ul.contact > li {
@@ -2849,7 +2856,7 @@
 			}
 
 				ul.contact > li:first-child {
-					margin-top: 0;
+					/*margin-top: 0;*/
 				}
 
 		ul.menu {
@@ -2943,8 +2950,7 @@
 		}
 
 		.split > :nth-child(2n - 1) {
-			padding-right: 2.5em;
-			border-right: solid 1px rgba(255, 255, 255, 0.15);
+			/*padding-right: 2.5em;*/
 		}
 
 		.split > :nth-child(2n) {
@@ -2952,7 +2958,8 @@
 		}
 
 		.split.style1 > :nth-child(2n - 1) {
-			width: calc(66.66666% - 2.5em);
+			/*width: calc(66.66666% - 2.5em);*/
+			width: 100%;
 		}
 
 		.split.style1 > :nth-child(2n) {
@@ -2966,7 +2973,7 @@
 			}
 
 			.split > :nth-child(2n - 1) {
-				padding-right: 2em;
+				/*padding-right: 2em;*/
 			}
 
 			.split > :nth-child(2n) {
@@ -2974,7 +2981,8 @@
 			}
 
 			.split.style1 > :nth-child(2n - 1) {
-				width: calc(66.66666% - 2em);
+				/*width: calc(66.66666% - 2em);*/
+				width: 100%;
 			}
 
 			.split.style1 > :nth-child(2n) {
@@ -3049,6 +3057,10 @@
 			width: 25em;
 		}
 
+		.spotlights > section > .dombledore {
+			background-position: 34% 25%;
+		}
+
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
@@ -3059,7 +3071,7 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(98, 79, 102, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3245,7 +3257,12 @@
 			width: 75em;
 		}
 
+		.wrapper > .zero-content {
+			padding: 5em 9em 3em 5em;
+		}
+
 		.wrapper > .inner > h2 {
+			color: #4a4645;
 			text-align: center;
 		}
 
@@ -3277,32 +3294,40 @@
 			background-color: #261c3e;
 		}
 
+		.wrapper.style0 {
+			background-color: rgba(0, 0, 0, .8);
+		}
+
+		.wrapper.style0-alt {
+			background-color: rgba(0, 0, 0, .8);
+		}
+
 		.wrapper.style1 {
-			background-color: #004581;
+			background-color: #e6c7ac;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #004f98;
+			background-color: #e6c7ac;
 		}
 
 		.wrapper.style2 {
-			background-color: #018abd;
+			background-color: #624F66;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #624F66;
 		}
 
 		.wrapper.style3 {
-			background-color: #97cbdc;
+			background-color: #f4dfcd;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #f4dfcd;
 		}
 
     .wrapper.style4 {
-      background-color: #99bddc;
+      background-color: #e6c7ac;
     }
 
 		.wrapper.fullscreen {
@@ -3409,7 +3434,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #004581
+		background-color: #004581;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3457,7 +3482,7 @@
 					}
 
 						#header > nav > ul > li a:hover {
-							color: rgba(255, 255, 255, 0.55);
+							color: rgba(255, 255, 255, 0.75);
 						}
 
 						#header > nav > ul > li a.active {
@@ -3563,7 +3588,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #001b48
+		background: #372b38;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3800,14 +3825,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #004f98;
+				background: #624F66;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #004581, #97cbdc);
-				background-image: -webkit-linear-gradient(to right, #004581, #97cbdc);
-				background-image: -ms-linear-gradient(to right, #004581, #97cbdc);
-				background-image: linear-gradient(to right, #004581, #97cbdc);
+				background-image: -moz-linear-gradient(to right, #e6c7ac, #f4dfcd);
+				background-image: -webkit-linear-gradient(to right, #e6c7ac, #f4dfcd);
+				background-image: -ms-linear-gradient(to right, #e6c7ac, #f4dfcd);
+				background-image: linear-gradient(to right, #e6c7ac, #f4dfcd);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3816,7 +3841,7 @@
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 			#sidebar nav a.active {
@@ -3896,7 +3921,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #97cbdc;
+							background-color: #372b38;
 						}
 
 		}
@@ -3913,7 +3938,8 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/*background-image: url("images/dumbo.jpg");*/
+		background: rgba(0, 0, 0, 0.5);
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3946,3 +3972,9 @@
 			}
 
 		}
+
+	.headshot {
+		border-radius: 50%;
+		max-width: 25%;
+		max-height: 25%;
+	}

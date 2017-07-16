@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -21,11 +22,12 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">About me</a></li>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#zero">About Me</a></li>
 							<li><a href="#one">Projects</a></li>
 							<li><a href="#two">Skills</a></li>
 							<li><a href="#three">Contact</a></li>
-							<li><a href="#four">test</a></li>
+							<!-- <li><a href="#four">test</a></li> -->
 						</ul>
 					</nav>
 				</div>
@@ -47,6 +49,31 @@
 						</div>
 					</section>
 
+				<!-- Zero -->
+				<section id="zero" class="wrapper style0">
+					<div class="inner zero-content">
+						<div class="pic">
+							<img class="headshot" src="images/hs.jpg" alt="vsasnouski">
+						</div>
+						<h1>About me</h1>
+						<p>A web developer based in NYC.<br/>
+							I find passion in discovering something new every day and
+							expanding the boundaries of my own worldview.<br/>Writing efficient
+							code and building user friendly applications successfully
+							help me to achieve these goals. <br/>My entrepreneurial experience
+							and linguistics background has heavily affected my approach
+							to learning emerging technologies and tackling engineering
+							problems.
+							<br/>
+							I spend my free time reading books and finding harmony.
+					 	</p>
+						<ul class="actions">
+							<li><a href="#one" class="button scrolly">Learn more</a></li>
+							<li><a href="assets/vlad_sasnouski_resume.pdf" target="_blank" class="button scrolly">Resume</a></li>
+						</ul>
+					</div>
+				</section>
+
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
@@ -54,7 +81,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>IndieNoMo</h2>
-									<p>A full-stack web app inspired by IndieGoGo.<br/> Build with Ruby on Rails and React/Redux.</p>
+									<p>A full-stack crowdfunding web app inspired by IndieGoGo.
+										<br/>
+										Build with Ruby on Rails and React/Redux.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>
@@ -62,11 +91,11 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/DOMbldore.png" alt="" data-position="top center" /></a>
+							<a href="#" class="image dombledore"><img src="images/DOMbldore.png" alt="DOMbledore"  /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>DOMbldore</h2>
-									<p>A lightweight JavaScript library for DOM manipulation.</p>
+									<h2>DOMbledore</h2>
+									<p>A lightweight JavaScript library for DOM traversal and manipulation.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>
@@ -74,11 +103,11 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="https://usasnouski.github.io/Tetris/" class="image"><img src="images/tetris.png" alt="tetris" data-position="30% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Tetris</h2>
-									<p>A classic browser game</p>
+									<p>A classic tile-matching browser game created with vanilla JavaScript & HTML5 Canvas.</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>
@@ -92,15 +121,16 @@
 						<div class="inner">
 							<h2>Skills</h2>
 							<div class="features">
-								<span class="icon major"><img class="icon-img" src="images/ruby-icon.png" alt=""></span>
-								<span class="icon major"><img class="icon-img scaled" src="images/rails-icon.png" alt=""></span>
 								<span class="icon major"><img class="icon-img" src="images/js-icon.svg" alt=""></span>
-								<span class="icon major"><img class="icon-img" src="images/html5-logo.png" alt=""></span>
-								<span class="icon major"><img class="icon-img css" src="images/css3-logo.png" alt=""></span>
-								<span class="icon major"><img class="icon-img scaled" src="images/react-logo.png" alt=""></span>
-								<span class="icon major"><img class="icon-img" src="images/redux-logo.png" alt=""></span>
+								<!-- <span class="icon major"><img class="icon-img" src="images/ruby-icon.png" alt=""></span> -->
+								<span class="icon major"><img class="icon-img" src="images/react-original.svg" alt=""></span>
+								<!-- <span class="icon major"><img class="icon-img" src="images/redux-logo.png" alt="">Redux</span> -->
+								<span class="icon major"><img class="icon-img" src="images/ruby-plain.svg" alt=""></span>
+								<span class="icon major"><img class="icon-img" src="images/rails-plain.svg" alt=""></span>
+								<span class="icon major"><img class="icon-img" src="images/html5-logo.svg" alt=""></span>
+								<span class="icon major"><img class="icon-img" src="images/css3-logo.svg" alt=""></span>
 								<span class="icon major"><img class="icon-img scaled" src="images/git-logo.svg" alt=""></span>
-								<span class="icon major"><img class="icon-img" src="images/sql-logo.png" alt=""></span>
+								<span class="icon major"><img class="icon-img" src="images/postgresql-logo.svg" alt=""></span>
 								<!-- <span class="icon major fa-diamond"></span> -->
 
 							</div>
@@ -114,27 +144,8 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>If there's a new technology you'd want to share or just chat feel free to send me a message!</p>
 							<div class="split style1">
-								<section>
-									<form method="post" action="http://formspree.io/usasnouski@gmail.com">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" class="button submit" value="Send Message"></input></li>
-										</ul>
-									</form>
-								</section>
+
 								<section>
 									<ul class="contact">
 										<li>
@@ -165,20 +176,16 @@
 						</div>
 					</section>
 
-
-					<section id="four" class="wrapper style4">
-						<div>WASSSUP BROTHA</div>
-					</section>
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
+			<!-- <footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
 
 					</ul>
 				</div>
-			</footer>
+			</footer> -->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
