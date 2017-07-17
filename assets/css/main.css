@@ -3999,6 +3999,41 @@
 		 color: #817f7f;
 	 }
 
+	.button2 {
+		 -moz-appearance: none;
+		 -webkit-appearance: none;
+		 -ms-appearance: none;
+		 appearance: none;
+		 -moz-transition: border-color 0.2s ease;
+		 -webkit-transition: border-color 0.2s ease;
+		 -ms-transition: border-color 0.2s ease;
+		 transition: border-color 0.2s ease;
+		 background-color: transparent;
+		 border: solid 1px !important;
+		 border-color: rgba(0, 0, 0, .4) !important;
+		 border-radius: 3em;
+		 color: #817f7f !important;
+		 cursor: pointer;
+		 display: inline-block;
+		 font-size: 0.6em;
+		 font-weight: bold;
+		 height: calc(4.75em + 2px);
+		 letter-spacing: 0.25em;
+		 line-height: 4.75em;
+		 outline: 0;
+		 padding: 0 3.75em;
+		 position: relative;
+		 text-align: center;
+		 text-decoration: none;
+		 text-transform: uppercase;
+		 white-space: nowrap;
+	 }
+
+	 .button2:hover {
+		 background-color: #b5b5b5;
+		 color: white !important;
+	 }
+
 	 #three h2 {
 		 color: #3d403f;
 	 }
