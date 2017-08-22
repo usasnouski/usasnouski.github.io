@@ -4055,8 +4055,12 @@
 	 }
 
 	#three .fa-github:hover {
-	 color: #201F1F;
+	 color: #582879;
  	}
+
+	#three .fa-angellist:hover {
+		color: #000000;
+	}
 
 	.headshot {
 		border-radius: 50%;
