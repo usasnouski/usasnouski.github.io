@@ -1623,7 +1623,7 @@
 
 	body {
 		/*background: #001b48;*/
-		  background-image: url(images/dumbo.jpg);
+		  background-image: url(images/dumbo-md.jpg);
 			background-attachment: fixed;
 			background-size: 100% 100%;
 	}
@@ -4047,7 +4047,7 @@
 	 }
 
 	 #three a:hover {
-		 color: #EDB5BF
+		 color: #d2909b;
 	 }
 
 	 #three .fa-linkedin:hover {
@@ -4055,7 +4055,7 @@
 	 }
 
 	#three .fa-github:hover {
-	 color: #582879;
+	 color: #3b5077;
  	}
 
 	#three .fa-angellist:hover {
